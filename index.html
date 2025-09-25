@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Music Vibes - Home</title>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="genres.html">Genres</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>Welcome to My Music Vibes</h1>
+  <img src="images/music-banner.jpg" alt="Music Banner" width="600">
+
+  <p>Discover new sounds on 
+    <a href="https://www.spotify.com" target="_blank">Spotify</a>
+  </p>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Music Vibes - Genres</title>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="genres.html">Genres</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>My Favorite Genres</h1>
+
+  <ul>
+    <li>Hip-Hop</li>
+    <li>Jazz</li>
+    <li>Electronic</li>
+    <li>Indie Rock</li>
+  </ul>
+
+  <h2>Top Artists by Genre</h2>
+  <table border="1">
+    <tr>
+      <th>Genre</th>
+      <th>Artist</th>
+    </tr>
+    <tr>
+      <td>Hip-Hop</td>
+      <td>Kendrick Lamar</td>
+    </tr>
+    <tr>
+      <td>Jazz</td>
+      <td>Esperanza Spalding</td>
+    </tr>
+    <tr>
+      <td>Electronic</td>
+      <td>ODESZA</td>
+    </tr>
+    <tr>
+      <td>Indie Rock</td>
+      <td>Tame Impala</td>
+    </tr>
+  </table>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Music Vibes - Contact</title>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="genres.html">Genres</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>Connect With Me</h1>
+
+  <form action="submit.php" method="POST">
+    <label>First Name:</label><br>
+    <input type="text" name="firstName"><br><br>
+
+    <label>Last Name:</label><br>
+    <input type="text" name="lastName"><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+
+    <label>Profession:</label><br>
+    <input type="radio" name="profession" value="Musician"> Musician<br>
+    <input type="radio" name="profession" value="Producer"> Producer<br>
+    <input type="radio" name="profession" value="Listener"> Listener<br><br>
+
+    <label>Comments:</label><br>
+    <textarea name="comments" rows="5" cols="30"></textarea><br><br>
+
+    <input type="submit" value="Send Vibes">
+  </form>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Music Vibes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1> Welcome to My Music Vibes</h1>
+  <p>Explore the sounds and faces of my favorite artists.</p>
+
+  <h2> Listen to Kendrick Lamar</h2>
+  <audio controls>
+    <source src="audio/kendrick-sample.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h2> Artist Gallery</h2>
+  <div class="gallery">
+    <div class="artist">
+      <img src="images/kendrick.jpg" alt="Kendrick Lamar">
+      <p>Kendrick Lamar</p>
+    </div>
+    <div class="artist">
+      <img src="images/esperanza.jpg" alt="Esperanza Spalding">
+      <p>Esperanza Spalding</p>
+    </div>
+    <div class="artist">
+      <img src="images/odesza.jpg" alt="ODESZA">
+      <p>ODESZA</p>
+    </div>
+    <div class="artist">
+      <img src="images/tame.jpg" alt="Tame Impala">
+      <p>Tame Impala</p>
+    </div>
+  </div>
+</body>
+</html>
+
+
